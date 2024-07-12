@@ -3,10 +3,14 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { BotaoComponent } from './botao/botao.component';
+import { RodapeComponent } from './rodape/rodape.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    BotaoComponent,
+    RodapeComponent
   ],
   imports: [
     BrowserModule,
