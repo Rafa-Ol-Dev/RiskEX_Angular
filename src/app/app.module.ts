@@ -5,12 +5,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BotaoComponent } from './botao/botao.component';
 import { RodapeComponent } from './rodape/rodape.component';
+import { HeaderComponent } from './header/header.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     BotaoComponent,
-    RodapeComponent
+    RodapeComponent,
+    HeaderComponent
   ],
   imports: [
     BrowserModule,

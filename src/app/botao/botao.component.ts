@@ -5,6 +5,7 @@ import { Component } from '@angular/core';
   templateUrl: './botao.component.html',
   styleUrl: './botao.component.scss'
 })
-export class BotaoComponent {
 
+export class BotaoComponent {
+  botao = 'Botão'
 }

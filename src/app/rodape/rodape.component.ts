@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrl: './rodape.component.scss'
 })
 export class RodapeComponent {
-
+  nome = 'Rafael Roberto de Oliveira'
 }
