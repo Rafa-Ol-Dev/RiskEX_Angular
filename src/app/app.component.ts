@@ -7,5 +7,8 @@ import { Component } from '@angular/core';
 })
 
 export class AppComponent {
-  saudacao = 'Rafa Oliveira';
+  nome:string = 'Rafael Oliveira';
+  botao:string = 'BOTÃO';
+  logo:string = 'logo.png';
+  menu:string[] = ['Menu 1', 'Menu 2', 'Menu 3'];
 }
