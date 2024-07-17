@@ -7,8 +7,7 @@ import { Component } from '@angular/core';
 })
 
 export class AppComponent {
-  nome:string = 'Rafael Oliveira';
-  botao:string = 'BOTÃO';
-  logo:string = 'logo.png';
-  menu:string[] = ['Menu 1', 'Menu 2', 'Menu 3'];
+  nome:string = 'Olive Faz';
+  creator:string = 'Rafael Oliveira';
+  menu:string[] = ['Quem somos', 'Peças', 'Contato'];
 }

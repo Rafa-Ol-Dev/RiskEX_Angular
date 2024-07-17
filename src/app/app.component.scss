@@ -1,0 +1,16 @@
+header,
+.main,
+.rodape {
+    margin-left: .75rem;
+}
+
+.main {
+    height: 100vh;
+    .content {
+        height: 100%;
+    }
+    img {
+        position: absolute;
+        opacity: 0.3;
+    }
+}
