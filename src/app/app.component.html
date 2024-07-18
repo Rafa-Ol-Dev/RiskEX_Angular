@@ -5,11 +5,17 @@
 <main class="main">
   <div class="content">
     <img src="../assets/background.png" alt="" />
-    <app-quem></app-quem>
+    <div class="quem">
+      <app-quem [nome]="nome" [quem]="quem"></app-quem>
+    </div>
+    <div class="pecas">
+      <app-pecas [pecas]="pecas"></app-pecas>
+    </div>
+    <div class="contato">
+      <app-contato [contato]="contato"></app-contato>
+    </div>
   </div>
 </main>
-
-<hr role="divider" class="divider" />
 
 <footer class="rodape">
   <app-rodape [nome]="creator"></app-rodape>

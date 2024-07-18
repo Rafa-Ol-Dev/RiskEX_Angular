@@ -1,19 +1,19 @@
 .conteudo-cabeçalho {
-    display: flex !important;
-    margin-left: .75;
-    .logo {
-      padding: 2rem;
-    }
-    .container {
-      padding: 2rem;
-      margin-left: 5rem;
-      display: flex;
-      .menu {
-        padding: .5rem;
-        .item {
-          color: gold;
-        }
+  width: 550px;
+  display: flex;
+  margin-left: 1rem;
+  .logo {
+    margin: 2rem 1rem;
+  }
+  .container {
+    margin: 2rem;
+    padding-left: 5rem;
+    display: flex;
+    .menu {
+      padding-left: 1.5rem;
+      .item:hover {
+        color: rgb(220, 0, 220);
       }
     }
   }
-  
+}

@@ -7,4 +7,5 @@ import { Component, Input } from '@angular/core';
 })
 export class QuemComponent {
   @Input() nome!: string;
+  @Input() quem!: string;
 }
