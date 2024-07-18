@@ -9,6 +9,7 @@ import { QuemComponent } from './quem/quem.component';
 import { PecasComponent } from './pecas/pecas.component';
 import { ContatoComponent } from './contato/contato.component';
 
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -16,7 +17,7 @@ import { ContatoComponent } from './contato/contato.component';
     HeaderComponent,
     QuemComponent,
     PecasComponent,
-    ContatoComponent
+    ContatoComponent,
   ],
   imports: [
     BrowserModule,

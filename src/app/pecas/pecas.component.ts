@@ -7,4 +7,5 @@ import { Component, Input } from '@angular/core';
 })
 export class PecasComponent {
   @Input() pecas!: string;
+  @Input() array:string[] = [];
 }

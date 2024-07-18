@@ -3,4 +3,13 @@
 }
 .container-texto {
     margin: 3rem;
+    .texto {
+        font-size: 1rem;
+    }
+    .lista {
+        font-size: .925rem;
+        .item {
+            padding: 1.125rem;
+        }
+    }
 }
