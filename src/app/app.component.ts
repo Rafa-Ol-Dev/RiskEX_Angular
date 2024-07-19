@@ -9,9 +9,9 @@ import { Component } from '@angular/core';
 export class AppComponent {
   nome:string = 'Olive Faz';
   creator:string = 'Rafael Oliveira';
-  menu:string[] = ['i1', 'i2', 'i3'];
-  quem:string = 'Quem somos';
+  menu:string[] = ['Quem somos?', 'Peças', 'Contato'];
+  quem:string = 'Quem somos?';
   pecas:string = 'Peças';
-  items:string[] = ['Cogumelo', 'Abelha', 'Porta Maternidade', 'Kit Higiene'];
+  items:string[] = ['Potinhos', 'Pratinhos', 'Porta Maternidade', 'Kit Higiene'];
   contato:string = 'Contato';
 }

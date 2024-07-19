@@ -1,12 +1,12 @@
-<h1>{{ nome }}</h1>
 <div class="container-titulo">
-  <h3 class="titulo">{{ quem }}</h3>
+  <h2 class="titulo">{{ quem }}</h2>
 </div>
 <div class="container-texto">
   <div class="texto1">
-    <p>Lorem ipsum...</p>
+    <p *ngFor="let linha of textoUm">{{ linha }}</p>
   </div>
   <div class="texto2">
-    <p>Lorem ipsum...</p>
+    <p *ngIf="textoDois == undefined">Em construção...</p>
+    <p *ngIf="textoDois != undefined">{{ textoDois }}</p>
   </div>
 </div>

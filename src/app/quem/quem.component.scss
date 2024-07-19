@@ -1,14 +1,19 @@
-h1 {
+.container-titulo {
+  margin: 2.5rem;
+  .titulo {
     margin: 2rem;
     padding-top: 1rem;
-    font-size: 3.5rem;
-}
-.container-titulo {
-    margin: 2.5rem;
+    font-size: 2.5rem;
+  }
 }
 .container-texto {
-    margin: 3rem;
-    .texto1, .texto2 {
-        padding: 1rem;
+    margin-bottom: 15rem;
+    .texto1,
+    .texto2 {
+        font-size: 1.5rem;
+        margin-top: 3.5%;
+        p {
+            padding-top: 1rem;
+        }
     }
 }
