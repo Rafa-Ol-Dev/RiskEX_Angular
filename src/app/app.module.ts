@@ -8,6 +8,7 @@ import { HeaderComponent } from './header/header.component';
 import { QuemComponent } from './quem/quem.component';
 import { PecasComponent } from './pecas/pecas.component';
 import { ContatoComponent } from './contato/contato.component';
+import { BtnComponent } from './btn/btn.component';
 
 
 @NgModule({
@@ -18,6 +19,7 @@ import { ContatoComponent } from './contato/contato.component';
     QuemComponent,
     PecasComponent,
     ContatoComponent,
+    BtnComponent,
   ],
   imports: [
     BrowserModule,
